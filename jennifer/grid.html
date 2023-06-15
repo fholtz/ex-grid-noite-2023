@@ -9,32 +9,75 @@
         h1 {
             text-align: center;
             color: aqua;
+           
         }
 
         h2 {
             text-align: center;
             color: black;
+            
         }
 
-        .container {
-            background-color: black;
+        .grid-container {
+            background-color: rgb(34, 109, 141);
             display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto;
+            gap : 10px ;
+            padding : 10px;
+            background-color : #2196F3;
+        }
+        .grid-container div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        .header {            
+            grid-column-start: 1;
+            grid-column-end: 8;
+            }
+        .navegacao {
+            grid-column-start: 1;
+            grid-column-end: 8;
+        }
+        .conteudo1 {
+            grid-column-start:1;
+            grid-row-end: 4;
+            grid-column: 1/3;
+        }
+        .conteudo2 {
+            grid-column-start:3;
+            grid-row-end: 4;
+            grid-column: 3/8;
+        }
+        
+        .foto {
+            grid-column-start: 1;
+            grid-column-end: 8;
+
+
+        }
+        .footer {
+            grid-column-start: 1;
+            grid-column-end: 8;
+            
+
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="grid-container">
         <div class="header"><h1>Header</h1></div>
-        <div class="item"><h2>Navega</h2></div>
-        <div class="item"><h3>Conteudo 1</h3></div>
-        <div class="item"><h3>Conteudo 2</h3></div>
-        <div class="item"><h3>Conteudo 3</h3></div>
-        <div class="item"><h3>Conteudo 4</h3></div>
-        <div class="item"><img src="" alt="Foto"></div>
-        <div class="item"><img src="" alt="Foto"></div>
-        <div class="item"><img src="" alt="Foto"></div>
-        <div class="item"><img src="" alt="Foto"></div>
-        <div class="item"><h4>Footer</h4></div>
+        <div class="navegacao"><h2>Navegação</h2></div>
+        <div class="conteudo1"><h3>Conteudo 1</h3></div>
+        <div class="conteudo2"><h3>Conteudo 2</h3></div>
+        <div class="conteudo3"><h3>Conteudo 3</h3></div>
+        <div class="conteudo4"><h3>Conteudo 4</h3></div>
+        <div class="foto"><img src="" alt="Foto"></div>
+        <div class="foto"><img src="" alt="Foto"></div>
+        <div class="foto"><img src="" alt="Foto"></div>
+        <div class="foto"><img src="" alt="Foto"></div>
+        <div class="footer"><h4>Footer</h4></div>
     </div>
        
 </body>
