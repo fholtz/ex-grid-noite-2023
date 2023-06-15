@@ -1,4 +1,4 @@
-.grid-item1 { grid-area: header; text-align: center; background-color: rgb(203, 0, 0); font-family: Impact;}
+.grid-item1 { grid-area: header; text-align: center; background-color: rgb(232, 3, 3); font-family: Impact;}
 .grid-item2 { grid-area: navegacao; text-align: center; background-color: rgb(195, 195, 195);}
 .grid-item3 { grid-area: conteudo1; text-align: center; background-color:  rgb(195, 195, 195);}
 .grid-item4 { grid-area: conteudo2; text-align: center; background-color:  rgb(195, 195, 195);}
