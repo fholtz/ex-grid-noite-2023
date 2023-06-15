@@ -1,25 +1,30 @@
-.grid-item1 { grid-area: header; text-align: center;}
-.grid-item2 { grid-area: navegacao; }
-.grid-item3 { grid-area: conteudo1; background-color: grey; border:1px solid black;}
-.grid-item4 { grid-area: conteudo2; }
-.grid-item5 { grid-area: conteudo3; }
-.grid-item6 { grid-area: conteudo4; }
-.grid-item7 { grid-area: foto1; }
-.grid-item8 { grid-area: foto2; }
-.grid-item9 { grid-area: foto3; }
-.grid-item10 { grid-area: foto4; }
-.grid-item11 { grid-area: footer; }
+.grid-item1 { grid-area: header; text-align: center; background-color: rgb(203, 0, 0); font-family: Impact;}
+.grid-item2 { grid-area: navegacao; text-align: center; background-color: rgb(195, 195, 195);}
+.grid-item3 { grid-area: conteudo1; text-align: center; background-color:  rgb(195, 195, 195);}
+.grid-item4 { grid-area: conteudo2; text-align: center; background-color:  rgb(195, 195, 195);}
+.grid-item5 { grid-area: conteudo3; text-align: center; background-color:  rgb(195, 195, 195);}
+.grid-item6 { grid-area: conteudo4; text-align: center; background-color:  rgb(195, 195, 195);}
+.grid-item7 { grid-area: foto1; text-align: center; background-color:  rgb(195, 195, 195);}
+.grid-item8 { grid-area: foto2; text-align: center; background-color:  rgb(195, 195, 195);}
+.grid-item9 { grid-area: foto3; text-align: center; background-color:  rgb(195, 195, 195);}
+.grid-item10 { grid-area: foto4; text-align: center; background-color:  rgb(195, 195, 195);}
+.grid-item11 { grid-area: footer; text-align: center; background-color:  rgb(195, 195, 195);}
 
 .grid-container{
     display: grid;
-    gap: 10px;
-    background-color: aqua;
+    gap: 5px;
+    column-gap: 10px;
+    background-color: rgb(255, 255, 255);
     grid-template-areas:
-    'header header header header header header'
-    'navegacao navegacao navegacao navegacao . .'
-    'conteudo1 conteudo1 conteudo1 conteudo2 conteudo2 conteudo2'
-    'conteudo3 conteudo3 conteudo3 conteudo4 conteudo4 conteudo4'
-    'foto1 foto2 foto3 foto4 . .'
-    'footer footer footer footer footer footer';
+    'header header header header'
+    'navegacao navegacao navegacao navegacao'
+    'conteudo1 conteudo1 conteudo2 conteudo2'
+    'conteudo3 conteudo3 conteudo4 conteudo4'
+    'foto1 foto2 foto3 foto4'
+    'footer footer footer footer';
 }
 
+li {
+    display: inline;
+    padding: 50px;
+  }
