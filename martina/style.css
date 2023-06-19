@@ -1,0 +1,43 @@
+@media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+}
+
+nav {
+    display: grid;
+    background-color: aliceblue;
+
+}
+  
+picture {
+    image-rendering: auto;
+}
+
+form {
+    display: grid;
+    width: 50%;
+    justify-content: center;
+}
+
+.container_main {
+    background-color: blueviolet;
+    display: grid;
+    
+}
+
+.container_sec {
+    background-color: chartreuse;
+    display: grid;
+}
+
+footer {
+    background-color: red;
+    align-items: center;
+}
+  
