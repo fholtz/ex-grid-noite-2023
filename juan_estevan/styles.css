@@ -1,0 +1,16 @@
+.conteiner
+{
+    background-color: aqua;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    
+}
+.item
+{
+ background-color: cornflowerblue;
+}
+/* .cabe
+{
+    grid-column: 1/3;
+} */
